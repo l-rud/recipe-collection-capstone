@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-
+    <p>{import.meta.env.VITE_apiBaseUrl}</p>
     </>
   )
 }
