@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 //Defining a functional component RecipesByCategoryDisplay that accepts recipes as a prop.
 export default function RecipesByCategoryDisplay({ recipes }) {
 
@@ -11,7 +13,7 @@ const loaded = () => {
         const recipesList = [];
 
         recipes.forEach((recipe, index) => {
-            recipesList.push(<li key={index}>{recipe.title}</li>);
+            recipesList.push(<li key={index}><Link to={`/recipe?id=${recipe._id}`}>{recipe.title}</Link></li>);
         });
 
         return (
