@@ -5,10 +5,10 @@ import HomePage from "./pages/HomePage";
 import RecipesByCategoryPage from "./pages/RecipesByCategoryPage";
 import RecipePage from "./pages/RecipePage";
 import './App.css';
+import AllRecipesPage from './pages/AllRecipesPage';
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  
   return (
     <>
       <BrowserRouter>
@@ -17,6 +17,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="recipes-by-category" element={<RecipesByCategoryPage />} />
             <Route path="recipe" element={<RecipePage />} />
+            <Route path="all-recipes" element={<AllRecipesPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

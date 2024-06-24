@@ -13,7 +13,7 @@ const Layout = () => {
       <nav className="top-menu">
         <ul>
         <li><Link to="/">Recipes By Category</Link></li>
-        <li><Link to="/">All Recipes</Link></li>
+        <li><Link to="/all-recipes">All Recipes</Link></li>
         </ul>
       </nav>
 

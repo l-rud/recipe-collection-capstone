@@ -1,5 +1,4 @@
-import { useState, useEffect, process } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import CategoriesDisplay from "./CategoriesDisplay";
 
 function HomePage() {

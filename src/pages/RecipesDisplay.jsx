@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-//Defining a functional component RecipesByCategoryDisplay that accepts recipes as a prop.
-export default function RecipesByCategoryDisplay({ recipes }) {
+//Defining a functional component RecipesDisplay that accepts recipes as a prop.
+export default function RecipesDisplay({ recipes }) {
 
     // Function to return loaded JSX  when recipes are available
 
