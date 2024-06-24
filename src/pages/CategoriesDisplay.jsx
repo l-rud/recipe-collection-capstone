@@ -20,7 +20,7 @@ const loaded = () => {
 
         return (
             <>
-                <div>
+                <div className="recipe-details">
                     <h2>Categories</h2>
                     <ul>{categoriesList}</ul>
                 </div>

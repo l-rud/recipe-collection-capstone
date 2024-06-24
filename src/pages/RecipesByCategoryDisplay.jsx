@@ -18,7 +18,7 @@ const loaded = () => {
 
         return (
             <>
-                <div>
+                <div className="recipe-details">
                     <h2>Recipes</h2>
                     <ul>{recipesList}</ul>
                 </div>

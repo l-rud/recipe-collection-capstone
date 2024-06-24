@@ -14,7 +14,7 @@ const loaded = () => {
 
         return (
             <>
-                <div>
+                <div className="recipe-details">
                     <h2>{recipe.title}</h2>
                     <h3>Directions</h3>
                     <p>{recipe.directions}</p>
