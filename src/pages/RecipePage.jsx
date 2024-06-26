@@ -3,7 +3,7 @@ import RecipeDisplay from "./RecipeDisplay";
 
 //Defining a functional component RecipesByCategoryPage.
 function RecipePage() {
-    const [recipe, setRecipe] = useState(null); 
+    const [recipe, setRecipe] = useState(null); // defining React state for the page that will store recipe data 
 
     const getRecipe = async (searchTerm) => {
         const queryParameters = new URLSearchParams(window.location.search);

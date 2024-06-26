@@ -107,11 +107,3 @@ body {
 .recipe-details ul li {
   margin-bottom: 8px;
 }
-
-/* Image styling */
-.recipe-details img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
