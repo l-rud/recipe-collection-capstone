@@ -19,6 +19,7 @@ The application functions as a personal recipe organizer, sorting recipes by the
 [Deployed Capstone Backend Render Link](<https://recipe-collection-backend.onrender.com/categories>)       
 
 ## Future Development
+- storage for recipe images,
 - recipe management UI interface,
 -  search functionality...
 
