@@ -12,7 +12,7 @@ The application functions as a personal recipe organizer, sorting recipes by the
 
 ## Links
 
-[Deployed Capstone Frontend  Netlify Link](<https://amazing-puppy-e188a5.netlify.app/>)  
+[Deployed Capstone Frontend  Netlify Link](<https://recipe-collection-mern.netlify.app/>)  
 
 [Capstone Backend Github Link](<https://github.com/l-rud/recipe-collection-backend>)    
 
